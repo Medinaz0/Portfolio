@@ -13,17 +13,9 @@ describe("Footer", () => {
 
   it("renders social links", () => {
     render(<Footer />);
-    expect(screen.getByRole("link", { name: /linkedin/i })).toHaveAttribute(
-      "href",
-      "https://www.linkedin.com/in/joseph-whiteaker-iii-02482a198/",
-    );
     expect(screen.getByRole("link", { name: /github/i })).toHaveAttribute(
       "href",
-      "https://github.com/josephaw1022",
-    );
-    expect(screen.getByRole("link", { name: /medium/i })).toHaveAttribute(
-      "href",
-      "https://medium.com/@josephsims1",
+      "https://github.com/Medinaz0",
     );
   });
 });

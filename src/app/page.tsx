@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Terminal } from "lucide-react";
+import Typewriter from "@/components/Typewriter";
 
 export default function Home() {
   return (
@@ -7,19 +8,21 @@ export default function Home() {
       <div className="max-w-3xl animate-fade-in">
         <div className="inline-flex items-center gap-2 mb-8 font-mono text-sm text-emerald-600">
           <Terminal className="w-4 h-4" />
-          <span>$ whoami --role=&quot;Senior Cloud Engineer&quot;</span>
+          <span>$ whoami --role=&quot;</span>
+          <Typewriter text="Computer Engineering Student" />
+          <span>&quot;</span>
         </div>
 
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-foreground mb-6 leading-tight">
-          Building reliable <br className="hidden sm:block" />
-          cloud infrastructure.
+        <h1 className="text-5xl sm:text-5xl md:text-5xl font-semibold tracking-tight text-foreground mb-6 leading-tight">
+          Cybersecurity enthusiast <br className="hidden sm:block" />
+          engineering a safer digital world.
         </h1>
 
         <p className="text-xl text-foreground max-w-2xl leading-relaxed mb-10">
-          I design and build secure, scalable developer platforms. With over 4
-          years of expertise across AWS, Azure, and on-premise ecosystems, I
-          specialize in Kubernetes architecture, automated deployment
-          lifecycles, and enforcing supply chain security.
+          I explore vulnerabilities and build secure, scalable cloud
+          environments. With hands-on experience in AWS, Azure and Linux, I
+          specialize in vulnerability analysis, network security and cloud
+          infrastructure deployment.
         </p>
 
         <div className="flex flex-col sm:flex-row items-start gap-4 font-mono text-sm">
@@ -41,29 +44,29 @@ export default function Home() {
       <div className="mt-auto pt-24 grid sm:grid-cols-3 gap-8 border-t border-zinc-200 dark:border-zinc-800 animate-fade-in delay-200">
         <div>
           <h3 className="font-semibold text-foreground mb-2">
-            Kubernetes Ecosystem
+            Linux & Systems
           </h3>
           <p className="text-base text-foreground">
-            Expertise in cluster lifecycle management, custom operators, and
-            multi-cluster orchestration.
+            Hands-on experience with Linux administration, SSH configuration,
+            network analysis and VM deployment on cloud environments.
           </p>
         </div>
         <div>
           <h3 className="font-semibold text-foreground mb-2">
-            GitOps & Automation
+            Version Control & Collaboration
           </h3>
           <p className="text-base text-foreground">
-            Declarative infrastructure via Argo CD, Flux, and Terraform,
-            ensuring verifiable state.
+            Declarative workflows using Git and Scrum methodologies, ensuring
+            clean, trackable and collaborative development.
           </p>
         </div>
         <div>
           <h3 className="font-semibold text-foreground mb-2">
-            Platform Security
+            Security & Vulnerability Analysis
           </h3>
           <p className="text-base text-foreground">
-            Zero-trust principles, OPA Gatekeeper, Kyverno, and hardened
-            container supply chains.
+            Vulnerability scanning with Nmap, LAN network traffic analysis and
+            security group configuration on AWS and Azure environments.
           </p>
         </div>
       </div>

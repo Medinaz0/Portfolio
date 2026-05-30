@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 describe("Header", () => {
   it("renders the branding logo and name", () => {
     render(<Header />);
-    expect(screen.getByText("joseph.whiteaker")).toBeInTheDocument();
+    expect(screen.getByText("santiago.medina")).toBeInTheDocument();
   });
 
   it("renders navigation links", () => {
@@ -30,7 +30,7 @@ describe("Header", () => {
     const sourceLink = screen.getByRole("link", { name: /\[src\]/i });
     expect(sourceLink).toHaveAttribute(
       "href",
-      "https://github.com/josephaw1022/PersonalWebsite",
+      "https://github.com/Medinaz0/PersonalWebsite",
     );
   });
 });

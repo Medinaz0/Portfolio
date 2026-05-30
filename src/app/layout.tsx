@@ -17,9 +17,9 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  title: "Santiago Medina | Estudiante de Ingeniería Informática",
+  title: "Santiago Medina | Computer Engineering Student",
   description:
-    "Portfolio de Santiago Medina, Estudiante de Ingeniería Informática - 9no semestre.",
+    "Portfolio of Santiago Medina, Computer Engineering Student - 9th semester.",
 };
 
 export default function RootLayout({
