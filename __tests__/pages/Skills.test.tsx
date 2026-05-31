@@ -4,17 +4,22 @@ import Skills from "@/app/skills/page";
 describe("Skills Page", () => {
   it("renders the main heading", () => {
     render(<Skills />);
-    const heading = screen.getByRole("heading", { level: 1 });
-    expect(heading).toHaveTextContent(/Technical Skills/i);
+    const headings = screen.getAllByRole("heading", { level: 1 });
+    expect(headings[0]).toHaveTextContent(/Technical Skills/i);
   });
 
   it("renders a list of skills", () => {
     render(<Skills />);
-    expect(screen.getByText("Kubernetes")).toBeInTheDocument();
-    expect(screen.getByText("Argo CD")).toBeInTheDocument();
-    expect(screen.getByText("Terraform")).toBeInTheDocument();
+    expect(screen.getByText("Java")).toBeInTheDocument();
+    expect(screen.getByText("Python")).toBeInTheDocument();
+    expect(screen.getByText("Docker")).toBeInTheDocument();
+  });
 
-    const images = screen.getAllByRole("img");
-    expect(images.length).toBeGreaterThan(5);
+  it("renders the soft skills section", () => {
+    render(<Skills />);
+    expect(screen.getByText("Soft Skills")).toBeInTheDocument();
+    expect(screen.getByText("Teamwork")).toBeInTheDocument();
+    expect(screen.getByText("Communication")).toBeInTheDocument();
+    expect(screen.getByText("Leadership")).toBeInTheDocument();
   });
 });

@@ -11,13 +11,13 @@ describe("About Page", () => {
   it("renders the focus areas and approach sections", () => {
     render(<About />);
     expect(
-      screen.getByRole("heading", { name: /Autonomy Through Guardrails/i }),
+      screen.getByRole("heading", { name: /Security is not a feature/i }),
     ).toBeInTheDocument();
     expect(
-      screen.getByRole("heading", { name: /Declarative Source of Truth/i }),
+      screen.getByRole("heading", { name: /Cloud Infrastructure as a Foundation/i }),
     ).toBeInTheDocument();
     expect(
-      screen.getByRole("heading", { name: /Abstracting Complexity/i }),
+      screen.getByRole("heading", { name: /Continuous Learning/i }),
     ).toBeInTheDocument();
   });
 });

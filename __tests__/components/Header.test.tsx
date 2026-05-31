@@ -30,7 +30,7 @@ describe("Header", () => {
     const sourceLink = screen.getByRole("link", { name: /\[src\]/i });
     expect(sourceLink).toHaveAttribute(
       "href",
-      "https://github.com/Medinaz0/PersonalWebsite",
+      "https://github.com/Medinaz0/Portfolio",
     );
   });
 });
