@@ -19,7 +19,7 @@ describe("Skills Page", () => {
     render(<Skills />);
     expect(screen.getByText("Soft Skills")).toBeInTheDocument();
     expect(screen.getByText("Teamwork")).toBeInTheDocument();
-    expect(screen.getByText("Communication")).toBeInTheDocument();
-    expect(screen.getByText("Leadership")).toBeInTheDocument();
+    expect(screen.getByText("Critical Thinking")).toBeInTheDocument();
+    expect(screen.getByText("Adaptability")).toBeInTheDocument();
   });
 });

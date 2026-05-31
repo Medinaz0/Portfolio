@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ContactFab from "@/components/ContactFab";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 const inter = Inter({
@@ -54,6 +55,8 @@ export default function RootLayout({
           <main className="flex-grow z-10 relative">{children}</main>
 
           <Footer />
+
+          <ContactFab />
         </ThemeProvider>
       </body>
     </html>
