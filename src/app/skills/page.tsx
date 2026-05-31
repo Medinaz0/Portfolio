@@ -1,3 +1,5 @@
+"use client";
+
 import type { ReactNode } from "react";
 import {
   Users,
@@ -9,18 +11,19 @@ import {
   Timer,
   Sparkles,
 } from "lucide-react";
+import { useLanguage } from "@/i18n/LanguageProvider";
 
 export default function Stack() {
+  const { t } = useLanguage();
+
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 animate-fade-in">
       <div className="mb-16">
         <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight text-foreground mb-4">
-          Technical Skills
+          {t("skills.technical_title")}
         </h1>
         <p className="text-xl text-foreground max-w-2xl">
-          The main technologies I use in my day-to-day work to improve as a
-          computer engineer and build awesome projects. Always eager to learn
-          new tools and technologies.
+          {t("skills.technical_subtitle")}
         </p>
       </div>
 
@@ -62,11 +65,10 @@ export default function Stack() {
       {/* ──── Soft Skills ──── */}
       <div className="mt-24 mb-16">
         <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight text-foreground mb-4">
-          Soft Skills
+          {t("skills.soft_title")}
         </h1>
         <p className="text-xl text-foreground max-w-2xl">
-          The interpersonal skills that complement my technical expertise and
-          drive effective collaboration.
+          {t("skills.soft_subtitle")}
         </p>
       </div>
 

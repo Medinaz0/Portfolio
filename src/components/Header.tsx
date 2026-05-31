@@ -3,14 +3,17 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ThemeToggle } from "./ThemeToggle";
+import LanguageToggle from "./LanguageToggle";
+import { useLanguage } from "@/i18n/LanguageProvider";
 
 export default function Header() {
   const pathname = usePathname();
+  const { t } = useLanguage();
 
   const navLinks = [
-    { name: "Overview", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Skills", href: "/skills" },
+    { name: t("nav.overview"), href: "/" },
+    { name: t("nav.about"), href: "/about" },
+    { name: t("nav.skills"), href: "/skills" },
   ];
 
   return (
@@ -51,6 +54,7 @@ export default function Header() {
             </a>
           </div>
 
+          <LanguageToggle />
           <ThemeToggle />
         </div>
       </div>

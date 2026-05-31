@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ContactFab from "@/components/ContactFab";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { LanguageProvider } from "@/i18n/LanguageProvider";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -41,6 +42,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <LanguageProvider>
           {/* Subtle noise texture for a premium tactile feel */}
           <div
             className="fixed inset-0 opacity-[0.04] dark:opacity-[0.02] z-0 pointer-events-none"
@@ -57,6 +59,7 @@ export default function RootLayout({
           <Footer />
 
           <ContactFab />
+          </LanguageProvider>
         </ThemeProvider>
       </body>
     </html>

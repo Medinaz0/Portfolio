@@ -1,5 +1,10 @@
+"use client";
+
+import { useLanguage } from "@/i18n/LanguageProvider";
+
 export default function Footer() {
   const year = new Date().getFullYear();
+  const { t } = useLanguage();
 
   return (
     <footer className="border-t border-zinc-800 mt-20 py-8 z-10 bg-zinc-950">
@@ -14,7 +19,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="hover:text-emerald-400 transition-colors"
           >
-            GitHub
+            {t("footer.github")}
           </a>
         </div>
       </div>
