@@ -14,11 +14,12 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 mb-8 font-mono text-xs sm:text-sm text-emerald-600">
           <span className="flex items-center gap-1 shrink-0">
             <Terminal className="w-4 h-4" />
-            <span>$ whoami --role=&quot;</span>
+            <span>$ whoami --role=</span>
           </span>
           <span className="flex items-baseline gap-0">
+            &quot;
             <Typewriter text={t("home.role")} />
-            <span>&quot;</span>
+            &quot;
           </span>
         </div>
 
