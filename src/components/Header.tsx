@@ -42,7 +42,7 @@ export default function Header() {
         <div className="flex items-center gap-6">
           <div className="hidden sm:flex items-center gap-4">
             <a
-              href="https://github.com/Medinaz0/PersonalWebsite"
+              href="https://github.com/Medinaz0/Portfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm font-mono text-zinc-400 hover:text-white transition-colors"
