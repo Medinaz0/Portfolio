@@ -13,7 +13,7 @@ export default function Home() {
           <span>&quot;</span>
         </div>
 
-        <h1 className="text-5xl sm:text-5xl md:text-5xl font-semibold tracking-tight text-foreground mb-6 leading-tight">
+        <h1 className="text-6xl sm:text-6xl md:text-6xl font-semibold tracking-tight text-foreground mb-6 leading-tight">
           Cybersecurity enthusiast <br className="hidden sm:block" />
           engineering a safer digital world.
         </h1>
@@ -65,8 +65,10 @@ export default function Home() {
             Security & Vulnerability Analysis
           </h3>
           <p className="text-base text-foreground">
-            Vulnerability scanning with Nmap, LAN network traffic analysis and
-            security group configuration on AWS and Azure environments.
+            Identifying weaknesses before they become threats. Hands-on
+            experience analyzing network traffic, scanning for vulnerabilities
+            and configuring secure environments across cloud and local
+            infrastructure.
           </p>
         </div>
       </div>
