@@ -11,11 +11,15 @@ export default function Home() {
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-32 pb-16 flex flex-col min-h-[75vh]">
       <div className="max-w-3xl animate-fade-in">
-        <div className="inline-flex items-center gap-2 mb-8 font-mono text-sm text-emerald-600">
-          <Terminal className="w-4 h-4" />
-          <span>$ whoami --role=&quot;</span>
-          <Typewriter text={t("home.role")} />
-          <span>&quot;</span>
+        <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 mb-8 font-mono text-xs sm:text-sm text-emerald-600">
+          <span className="flex items-center gap-1 shrink-0">
+            <Terminal className="w-4 h-4" />
+            <span>$ whoami --role=&quot;</span>
+          </span>
+          <span className="flex items-baseline gap-0">
+            <Typewriter text={t("home.role")} />
+            <span>&quot;</span>
+          </span>
         </div>
 
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-foreground mb-6 leading-tight whitespace-pre-line">
