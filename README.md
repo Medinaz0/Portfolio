@@ -6,7 +6,7 @@ Mi portafolio personal construido con Next.js.
 
 ```bash
 pnpm install
-pnpm dev
+task dev
 ```
 
 ## Stack
