@@ -17,12 +17,12 @@ export default function Stack() {
   const { t } = useLanguage();
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 animate-fade-in">
-      <div className="mb-16">
-        <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight text-foreground mb-4">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-16 animate-fade-in">
+      <div className="mb-12 sm:mb-16">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold tracking-tight text-foreground mb-4">
           {t("skills.technical_title")}
         </h1>
-        <p className="text-xl text-foreground max-w-2xl">
+        <p className="text-base sm:text-lg md:text-xl text-foreground max-w-2xl">
           {t("skills.technical_subtitle")}
         </p>
       </div>
@@ -31,7 +31,7 @@ export default function Stack() {
         {skills.map((skill, i) => (
           <div
             key={skill.name}
-            className="w-full aspect-square card-minimal rounded-lg p-6 flex flex-col items-center justify-center gap-4 group"
+            className="w-full aspect-square card-minimal rounded-lg p-4 sm:p-6 flex flex-col items-center justify-center gap-4 group"
             style={{ animationDelay: `${i * 30}ms` }}
           >
             <div
@@ -63,11 +63,11 @@ export default function Stack() {
       </div>
 
       {/* ──── Soft Skills ──── */}
-      <div className="mt-24 mb-16">
-        <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight text-foreground mb-4">
+      <div className="mt-20 sm:mt-24 mb-12 sm:mb-16">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold tracking-tight text-foreground mb-4">
           {t("skills.soft_title")}
         </h1>
-        <p className="text-xl text-foreground max-w-2xl">
+        <p className="text-base sm:text-lg md:text-xl text-foreground max-w-2xl">
           {t("skills.soft_subtitle")}
         </p>
       </div>
@@ -76,7 +76,7 @@ export default function Stack() {
         {softSkills.map((skill, i) => (
           <div
             key={skill.name}
-            className="w-full aspect-square card-minimal rounded-lg p-6 flex flex-col items-center justify-center gap-4 group"
+            className="w-full aspect-square card-minimal rounded-lg p-4 sm:p-6 flex flex-col items-center justify-center gap-4 group"
             style={{ animationDelay: `${i * 30}ms` }}
           >
             <div

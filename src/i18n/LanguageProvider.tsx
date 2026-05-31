@@ -32,16 +32,24 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    const saved = localStorage.getItem("lang") as Lang | null;
-    if (saved === "en" || saved === "es") {
-      setLangState(saved);
+    try {
+      const saved = localStorage.getItem("lang") as Lang | null;
+      if (saved === "en" || saved === "es") {
+        setLangState(saved);
+      }
+    } catch {
+      // localStorage not available (private browsing, etc.)
     }
     setMounted(true);
   }, []);
 
   const setLang = useCallback((l: Lang) => {
     setLangState(l);
-    localStorage.setItem("lang", l);
+    try {
+      localStorage.setItem("lang", l);
+    } catch {
+      // localStorage not available
+    }
   }, []);
 
   const t = useCallback(

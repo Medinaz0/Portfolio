@@ -9,7 +9,7 @@ export default function Home() {
   const { t } = useLanguage();
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16 flex flex-col min-h-[75vh]">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-32 pb-16 flex flex-col min-h-[75vh]">
       <div className="max-w-3xl animate-fade-in">
         <div className="inline-flex items-center gap-2 mb-8 font-mono text-sm text-emerald-600">
           <Terminal className="w-4 h-4" />
@@ -18,11 +18,11 @@ export default function Home() {
           <span>&quot;</span>
         </div>
 
-        <h1 className="text-6xl sm:text-6xl md:text-6xl font-semibold tracking-tight text-foreground mb-6 leading-tight whitespace-pre-line">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-foreground mb-6 leading-tight whitespace-pre-line">
           {t("home.heading")}
         </h1>
 
-        <p className="text-xl text-foreground max-w-2xl leading-relaxed mb-10">
+        <p className="text-base sm:text-lg md:text-xl text-foreground max-w-2xl leading-relaxed mb-10">
           {t("home.subtitle")}
         </p>
 

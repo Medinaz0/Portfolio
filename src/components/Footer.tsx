@@ -7,7 +7,7 @@ export default function Footer() {
   const { t } = useLanguage();
 
   return (
-    <footer className="border-t border-zinc-800 mt-20 py-8 z-10 bg-zinc-950">
+    <footer className="border-t border-zinc-800 mt-16 sm:mt-20 py-8 z-10 bg-zinc-950">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="font-mono text-sm text-white">
           {year} © Santiago Medina Varon
