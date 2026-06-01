@@ -8,8 +8,7 @@ export const dict: Dict = {
   },
   home: {
     role: "Computer Engineering Student",
-    heading:
-      "Cybersecurity enthusiast\nengineering a safer digital world.",
+    heading: "Cybersecurity enthusiast\nengineering a safer digital world.",
     subtitle:
       "I explore vulnerabilities and build secure, scalable cloud environments. With hands-on experience in AWS, Azure and Linux, I specialize in vulnerability analysis, network security and cloud infrastructure deployment.",
     cta_skills: "./view_skills.sh",
@@ -38,8 +37,7 @@ export const dict: Dict = {
         number: "01.",
         heading: "Security is not a feature, it is a mindset.",
         text: "Analyzing systems, identifying weaknesses and understanding how attacks work are the foundations of building environments that are truly hard to break.",
-        quote:
-          '"You can\'t defend what you don\'t understand."',
+        quote: "\"You can't defend what you don't understand.\"",
       },
       cloud: {
         number: "02.",
@@ -69,6 +67,7 @@ export const dict: Dict = {
     email: "email",
     location: "location",
     github: "github",
+    linkedin: "linkedin",
     aria_open: "Abrir contacto",
     aria_close: "Cerrar contacto",
   },

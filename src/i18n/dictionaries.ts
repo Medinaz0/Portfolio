@@ -20,7 +20,12 @@ export type Dict = {
     title: string;
     subtitle: string;
     sections: {
-      security: { number: string; heading: string; text: string; quote: string };
+      security: {
+        number: string;
+        heading: string;
+        text: string;
+        quote: string;
+      };
       cloud: { number: string; heading: string; text: string };
       learning: { number: string; heading: string; text: string };
     };
@@ -39,6 +44,7 @@ export type Dict = {
     email: string;
     location: string;
     github: string;
+    linkedin: string;
     aria_open: string;
     aria_close: string;
   };

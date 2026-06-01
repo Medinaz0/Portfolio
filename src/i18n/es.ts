@@ -38,8 +38,7 @@ export const dict: Dict = {
         number: "01.",
         heading: "La seguridad no es una característica, es una mentalidad.",
         text: "Analizar sistemas, identificar debilidades y entender cómo funcionan los ataques son los cimientos para construir entornos que sean realmente difíciles de vulnerar.",
-        quote:
-          '"No puedes defender lo que no entiendes."',
+        quote: '"No puedes defender lo que no entiendes."',
       },
       cloud: {
         number: "02.",
@@ -69,6 +68,7 @@ export const dict: Dict = {
     email: "correo",
     location: "ubicación",
     github: "github",
+    linkedin: "linkedin",
     aria_open: "Abrir contacto",
     aria_close: "Cerrar contacto",
   },
