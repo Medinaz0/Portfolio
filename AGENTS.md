@@ -1,13 +1,11 @@
 # Personal Website
 
-This repository contains a modern, multi-page Next.js App Router application.
-It is containerized using a multi-stage Node.js build (Next.js standalone) and hosted on a homelab OpenShift cluster.
-Secure external access is provided via a Cloudflare Tunnel.
+This repository contains a modern, multi-page Next.js App Router application built with Next.js 16, React 19, Tailwind CSS v4, and TypeScript.
 
 **Deployment**:
-The site is deployed via `./infra/okd-setup.sh` and uses a NetworkPolicy to restrict traffic to the cloudflared connector.
+Deployed on Vercel via GitHub with automatic CI/CD.
 
 **Development**:
 
 - Local Development: `task dev`
-- Build Container Image: `task build-container`
+- Testing: `task test`

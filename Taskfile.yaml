@@ -1,8 +1,6 @@
 version: "3"
 
 vars:
-  IMAGE_NAME: personal-site
-  CONTAINER_NAME: personal-site-dev
   PORT: "3000"
 
 tasks:
@@ -20,21 +18,3 @@ tasks:
     desc: Run Jest unit tests
     cmds:
       - npm run test
-
-  build-container:
-    desc: Build the Next.js production container image using Podman
-    cmds:
-      - podman build -t "{{.IMAGE_NAME}}" -f Containerfile .
-
-  run-container:
-    desc: Run the built production container using Podman
-    deps: [build-container]
-    cmds:
-      - |
-        podman run --replace -d --name "{{.CONTAINER_NAME}}" -p "{{.PORT}}:3000" "{{.IMAGE_NAME}}"
-
-  stop:
-    desc: Stop and remove the dev container if it exists (Podman)
-    silent: true
-    cmds:
-      - podman rm -f "{{.CONTAINER_NAME}}" >/dev/null 2>&1 || true
