@@ -10,10 +10,10 @@ Personal portfolio built with Next.js 16 App Router, React 19, Tailwind CSS v4, 
 
 ## Features
 
--  Bilingual i18n — custom system, no external libraries
--  Dark / light theme via `next-themes`
+-  Bilingual 
+-  Dark / light theme 
 -  Fully responsive
--  Terminal-inspired UI with emerald accent
+-  Terminal-inspired UI 
 
 ## Stack
 
