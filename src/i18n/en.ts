@@ -23,8 +23,8 @@ export const dict: Dict = {
         text: "Declarative workflows using Git and Scrum methodologies, ensuring clean, trackable and collaborative development.",
       },
       security: {
-        heading: "Security & Vulnerability Analysis",
-        text: "Identifying weaknesses before they become threats. Hands-on experience analyzing network traffic, scanning for vulnerabilities and configuring secure environments across cloud and local infrastructure.",
+        heading: "Critical & Analytical Thinking",
+        text: "Ability to break down complex problems, identify patterns and make informed decisions. I apply an analytical approach to both security and software development.",
       },
     },
   },
