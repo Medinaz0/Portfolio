@@ -42,7 +42,7 @@ export const dict: Dict = {
       cloud: {
         number: "02.",
         heading: "Cloud Infrastructure as a Foundation",
-        text: "Secure systems start with a well-configured infrastructure. Working with AWS and Azure — deploying VMs, configuring security groups, managing databases and storage — has taught me that every configuration decision is also a security decision.",
+        text: "Secure systems start with a well-configured infrastructure. Working with AWS and Azure deploying VMs, configuring security groups, managing databases and storage has taught me that every configuration decision is also a security decision.",
       },
       learning: {
         number: "03.",
