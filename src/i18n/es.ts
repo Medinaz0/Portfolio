@@ -30,7 +30,7 @@ export const dict: Dict = {
     },
   },
   about: {
-    title: "Sobre Mi Enfoque",
+    title: "Mi Enfoque",
     subtitle:
       "Estoy en constante expansión de mis conocimientos en ciberseguridad mientras aplico las mejores prácticas de seguridad en cada entorno con el que trabajo.",
     sections: {
@@ -43,7 +43,7 @@ export const dict: Dict = {
       cloud: {
         number: "02.",
         heading: "Infraestructura Cloud como Base",
-        text: "Los sistemas seguros comienzan con una infraestructura bien configurada. Trabajar con AWS y Azure — desplegando VMs, configurando grupos de seguridad, gestionando bases de datos y almacenamiento — me ha enseñado que cada decisión de configuración es también una decisión de seguridad.",
+        text: "Los sistemas seguros comienzan con una infraestructura bien configurada. Trabajar con AWS y Azure desplegando VMs, configurando grupos de seguridad, gestionando bases de datos y almacenamiento me ha enseñado que cada decisión de configuración es también una decisión de seguridad.",
       },
       learning: {
         number: "03.",
