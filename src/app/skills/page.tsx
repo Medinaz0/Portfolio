@@ -30,7 +30,7 @@ export default function Stack() {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
         {skills.map((skill, i) => (
           <div
-            key={skill.name}
+            key={skill.tKey ? t(`skills.soft_items.${skill.tKey}`) : skill.name}
             className="w-full aspect-square card-minimal rounded-lg p-4 sm:p-6 flex flex-col items-center justify-center gap-4 group"
             style={{ animationDelay: `${i * 30}ms` }}
           >
@@ -41,7 +41,7 @@ export default function Stack() {
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
                   src={skill.url}
-                  alt={skill.name}
+                  alt={skill.tKey ? t(`skills.soft_items.${skill.tKey}`) : skill.name}
                   className="w-full h-full object-contain grayscale-hover"
                   loading="lazy"
                 />
@@ -56,7 +56,7 @@ export default function Stack() {
               )}
             </div>
             <span className="text-sm font-mono text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors duration-300 text-nowrap text-center">
-              {skill.name}
+              {skill.tKey ? t(`skills.soft_items.${skill.tKey}`) : skill.name}
             </span>
           </div>
         ))}
@@ -75,7 +75,7 @@ export default function Stack() {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
         {softSkills.map((skill, i) => (
           <div
-            key={skill.name}
+            key={skill.tKey ? t(`skills.soft_items.${skill.tKey}`) : skill.name}
             className="w-full aspect-square card-minimal rounded-lg p-4 sm:p-6 flex flex-col items-center justify-center gap-4 group"
             style={{ animationDelay: `${i * 30}ms` }}
           >
@@ -86,7 +86,7 @@ export default function Stack() {
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
                   src={skill.url}
-                  alt={skill.name}
+                  alt={skill.tKey ? t(`skills.soft_items.${skill.tKey}`) : skill.name}
                   className="w-full h-full object-contain grayscale-hover"
                   loading="lazy"
                 />
@@ -101,7 +101,7 @@ export default function Stack() {
               )}
             </div>
             <span className="text-sm font-mono text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors duration-300 text-nowrap text-center">
-              {skill.name}
+              {skill.tKey ? t(`skills.soft_items.${skill.tKey}`) : skill.name}
             </span>
           </div>
         ))}
@@ -112,6 +112,7 @@ export default function Stack() {
 
 type Skill = {
   name: string;
+  tKey?: string;
   svg?: ReactNode;
   url?: string;
   iconClass?: string;
@@ -405,37 +406,44 @@ const skills: Skill[] = [
 
 const softSkills: Skill[] = [
   {
-    name: "Teamwork",
+    name: "teamwork",
+    tKey: "teamwork",
     url: "https://cdn-icons-png.flaticon.com/512/7086/7086327.png",
     iconClass: "scale-120",
   },
   {
-    name: "Problem Solving",
+    name: "problem_solving",
+    tKey: "problem_solving",
     url: "https://cdn-icons-png.flaticon.com/512/7399/7399787.png",
     iconClass: "scale-115",
   },
   {
-    name: "Communication",
+    name: "communication",
+    tKey: "communication",
     url: "https://cdn-icons-png.flaticon.com/512/9186/9186482.png",
     iconClass: "scale-115",
   },
   {
-    name: "Critical Thinking",
+    name: "critical_thinking",
+    tKey: "critical_thinking",
     url: "https://cdn-icons-png.flaticon.com/512/12641/12641431.png",
     iconClass: "scale-120",
   },
   {
-    name: "Adaptability",
+    name: "adaptability",
+    tKey: "adaptability",
     url: "https://cdn-icons-png.flaticon.com/512/10285/10285079.png",
     iconClass: "scale-115",
   },
   {
-    name: "Time Management",
+    name: "time_management",
+    tKey: "time_management",
     url: "https://cdn-icons-png.flaticon.com/512/1897/1897866.png",
     iconClass: "scale-120",
   },
   {
-    name: "Creativity",
+    name: "creativity",
+    tKey: "creativity",
     url: "https://cdn-icons-png.flaticon.com/512/5985/5985765.png",
     iconClass: "scale-120",
   },

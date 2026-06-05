@@ -59,6 +59,15 @@ export const dict: Dict = {
     soft_title: "Habilidades Blandas",
     soft_subtitle:
       "Las habilidades interpersonales que complementan mi experiencia técnica e impulsan una colaboración efectiva.",
+    soft_items: {
+      teamwork: "Trabajo en Equipo",
+      problem_solving: "Resolución de Problemas",
+      communication: "Comunicación",
+      critical_thinking: "Pensamiento Crítico",
+      adaptability: "Adaptabilidad",
+      time_management: "Gestión del Tiempo",
+      creativity: "Creatividad",
+    },
   },
   footer: {
     github: "GitHub",

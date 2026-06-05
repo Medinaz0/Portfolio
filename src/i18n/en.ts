@@ -58,6 +58,15 @@ export const dict: Dict = {
     soft_title: "Soft Skills",
     soft_subtitle:
       "The interpersonal skills that complement my technical expertise and drive effective collaboration.",
+    soft_items: {
+      teamwork: "Teamwork",
+      problem_solving: "Problem Solving",
+      communication: "Communication",
+      critical_thinking: "Critical Thinking",
+      adaptability: "Adaptability",
+      time_management: "Time Management",
+      creativity: "Creativity",
+    },
   },
   footer: {
     github: "GitHub",

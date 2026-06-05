@@ -35,6 +35,15 @@ export type Dict = {
     technical_subtitle: string;
     soft_title: string;
     soft_subtitle: string;
+    soft_items: {
+      teamwork: string;
+      problem_solving: string;
+      communication: string;
+      critical_thinking: string;
+      adaptability: string;
+      time_management: string;
+      creativity: string;
+    };
   };
   footer: {
     github: string;
