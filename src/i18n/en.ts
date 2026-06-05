@@ -10,7 +10,7 @@ export const dict: Dict = {
     role: "Computer Engineering Student",
     heading: "Cybersecurity enthusiast\nengineering a safer digital world.",
     subtitle:
-      "I explore vulnerabilities and build secure, scalable cloud environments. With hands-on experience in AWS, Azure and Linux, I specialize in vulnerability analysis, network security and cloud infrastructure deployment.",
+      "Computer Engineering Student. With hands-on experience in AWS, Azure and Linux, I specialize in vulnerability analysis, network security and cloud infrastructure deployment.",
     cta_skills: "./view_skills.sh",
     cta_about: "cat about.md",
     cards: {

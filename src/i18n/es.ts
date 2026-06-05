@@ -11,7 +11,7 @@ export const dict: Dict = {
     heading:
       "Apasionado de la Ciberseguridad\nconstruyendo un mundo digital más seguro.",
     subtitle:
-      "Exploro vulnerabilidades y construyo entornos cloud seguros y escalables. Con experiencia práctica en AWS, Azure y Linux, me especializo en análisis de vulnerabilidades, seguridad en redes y despliegue de infraestructura en la nube.",
+      "Estudiante de ingeniería informática. Con experiencia práctica en AWS, Azure y Linux, me especializo en análisis de vulnerabilidades, seguridad en redes y despliegue de infraestructura en la nube.",
     cta_skills: "./ver_habilidades.sh",
     cta_about: "cat sobre_mi.md",
     cards: {
