@@ -9,7 +9,7 @@ export const dict: Dict = {
   home: {
     role: "Estudiante de Ingeniería Informática",
     heading:
-      "Entusiasta de la Ciberseguridad\nconstruyendo un mundo digital más seguro.",
+      "Apasionado de la Ciberseguridad\nconstruyendo un mundo digital más seguro.",
     subtitle:
       "Exploro vulnerabilidades y construyo entornos cloud seguros y escalables. Con experiencia práctica en AWS, Azure y Linux, me especializo en análisis de vulnerabilidades, seguridad en redes y despliegue de infraestructura en la nube.",
     cta_skills: "./ver_habilidades.sh",
@@ -24,8 +24,8 @@ export const dict: Dict = {
         text: "Flujos de trabajo declarativos usando Git y metodologías Scrum, asegurando un desarrollo limpio, trazable y colaborativo.",
       },
       security: {
-        heading: "Seguridad y Análisis de Vulnerabilidades",
-        text: "Identificar debilidades antes de que se conviertan en amenazas. Experiencia práctica analizando tráfico de red, escaneando vulnerabilidades y configurando entornos seguros en infraestructura cloud y local.",
+        heading: "Pensamiento Crítico y Analítico",
+        text: "Capacidad para descomponer problemas complejos, identificar patrones y tomar decisiones fundamentadas. Aplico un enfoque analítico tanto en seguridad como en desarrollo de software.",
       },
     },
   },
