@@ -11,7 +11,7 @@ export default function LanguageToggle() {
       className="text-sm font-mono text-zinc-400 hover:text-white transition-colors"
       aria-label={lang === "en" ? "Switch to Spanish" : "Cambiar a inglés"}
     >
-      [{lang === "en" ? "ESP" : "ENG"}]
+      [{lang === "en" ? "ES" : "EN"}]
     </button>
   );
 }
