@@ -68,6 +68,40 @@ export const dict: Dict = {
       time_management: "Gestión del Tiempo",
       creativity: "Creatividad",
     },
+    hover: {
+      proficiency: "Nivel",
+      years: "Experiencia",
+      years_format: "{years} años",
+      related: "Relacionadas",
+    },
+    technical_descriptions: {
+      python:
+        "Dominio en Python para scripting, y desarrollo backend. Experiencia con FastAPI para construir servicios REST y con Pandas para análisis, procesamiento y visualización de datos.",
+      bash: "Sólidas habilidades de terminal de comandos para administración de Linux, scripts de automatización y gestión de configuración del sistema.",
+      java: "Base sólida en Java con experiencia construyendo aplicaciones usando Spring Boot y patrones de diseño orientados a objetos.",
+      spring_boot:
+        "Experiencia desarrollando APIs REST y microservicios con Spring Boot, incluyendo configuración de seguridad.",
+      postgresql:
+        "Experiencia trabajando con PostgreSQL para modelado de datos, consultas SQL y administración de bases de datos.",
+      aws: "Experiencia práctica con servicios core de AWS incluyendo EC2, S3, IAM y Security Groups para despliegue seguro de infraestructura cloud.",
+      azure:
+        "Conocimiento práctico de servicios cloud de Azure incluyendo máquinas virtuales y configuraciones de seguridad.",
+      vm: "Experiencia con tecnologías de virtualización para desplegar entornos aislados y probar configuraciones de infraestructura.",
+      docker:
+        "Despliegue de laboratorios de ciberseguridad locales con Docker y Docker Compose para prácticas de pentesting y análisis de vulnerabilidades.",
+      jenkins:
+        "Familiarizado con configuración de pipelines CI/CD usando Jenkins para flujos automatizados de build, test y deploy.",
+      git: "Buenas prácticas de control de versiones usando Git para desarrollo colaborativo con ramas de funcionalidad y historial de commits limpio.",
+      github:
+        "Experiencia con GitHub para alojamiento de código, pull request, GitHub Actions.",
+      api: "Experiencia diseñando y consumiendo APIs REST con manejo adecuado de errores, autenticación y documentación.",
+      cybersecurity:
+        "Conocimiento en evaluación de vulnerabilidades, análisis de seguridad en redes y pruebas de penetración usando herramientas estándar de la industria.",
+      scrum:
+        "Metodología Scrum aplicada en proyectos académicos, con planificación de sprints y ceremonias ágiles.",
+      reporting:
+        "Experiencia creando reportes y dashboards para seguimiento y soporte a la toma de decisiones basada en datos.",
+    },
   },
   footer: {
     github: "GitHub",

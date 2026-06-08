@@ -67,6 +67,40 @@ export const dict: Dict = {
       time_management: "Time Management",
       creativity: "Creativity",
     },
+    hover: {
+      proficiency: "Proficiency",
+      years: "Experience",
+      years_format: "{years} years",
+      related: "Related",
+    },
+    technical_descriptions: {
+      python:
+        "Proficient in Python for scripting and backend development. Experienced with FastAPI for building RESTful services and with Pandas for data analysis, processing, and visualization.",
+      bash: "Strong command-line skills for Linux administration, automation scripts, and system configuration management.",
+      java: "Solid foundation in Java with experience building applications using Spring Boot and object-oriented design patterns.",
+      spring_boot:
+        "Experience developing REST APIs and microservices with Spring Boot, including security configuration.",
+      postgresql:
+        "Experience working with PostgreSQL for data modeling, SQL queries, and database administration.",
+      aws: "Hands-on experience with AWS core services including EC2, S3, IAM, and Security Groups for secure cloud infrastructure deployment.",
+      azure:
+        "Working knowledge of Azure cloud services including virtual machines and security configurations.",
+      vm: "Experience with virtualization technologies for deploying isolated environments and testing infrastructure configurations.",
+      docker:
+        "Deploying local cybersecurity labs with Docker and Docker Compose for pentesting practice and vulnerability analysis.",
+      jenkins:
+        "Familiar with CI/CD pipeline configuration using Jenkins for automated build, test, and deployment workflows.",
+      git: "Strong version control practices using Git for collaborative development with feature branches and clean commit history.",
+      github:
+        "Experience with GitHub for code hosting, pull requests, and GitHub Actions.",
+      api: "Experience designing and consuming RESTful APIs with proper error handling, authentication, and documentation.",
+      cybersecurity:
+        "Knowledgeable in vulnerability assessment, network security analysis, and penetration testing methodologies using industry-standard tools.",
+      scrum:
+        "Scrum methodology applied in academic projects, with sprint planning and agile ceremonies.",
+      reporting:
+        "Experience creating reports and dashboards for tracking and supporting data-driven decision making.",
+    },
   },
   footer: {
     github: "GitHub",

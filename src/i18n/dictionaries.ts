@@ -44,6 +44,30 @@ export type Dict = {
       time_management: string;
       creativity: string;
     };
+    hover: {
+      proficiency: string;
+      years: string;
+      years_format: string;
+      related: string;
+    };
+    technical_descriptions: {
+      python: string;
+      bash: string;
+      java: string;
+      spring_boot: string;
+      postgresql: string;
+      aws: string;
+      azure: string;
+      vm: string;
+      docker: string;
+      jenkins: string;
+      git: string;
+      github: string;
+      api: string;
+      cybersecurity: string;
+      scrum: string;
+      reporting: string;
+    };
   };
   footer: {
     github: string;
