@@ -7,5 +7,5 @@ Deployed on Vercel via GitHub with automatic CI/CD.
 
 **Development**:
 
-- Local Development: `task dev`
-- Testing: `task test`
+- Local Development: `pnpm run dev`
+- Build: `pnpm run build`
