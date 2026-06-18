@@ -5,6 +5,7 @@ export const dict: Dict = {
     overview: "Overview",
     about: "About",
     skills: "Skills",
+    writeups: "Write-Ups",
   },
   home: {
     role: "Computer Engineering Student",

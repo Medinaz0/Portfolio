@@ -48,6 +48,15 @@ export default function Header() {
             })}
           </nav>
 
+          <a
+            href="https://medinaz0.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden md:inline-flex text-sm font-medium text-emerald-400 hover:text-emerald-300 transition-colors"
+          >
+            {t("nav.writeups")} ↗
+          </a>
+
           <div className="flex items-center gap-6">
             <div className="hidden sm:flex items-center gap-4">
               <a
@@ -97,6 +106,16 @@ export default function Header() {
                 </Link>
               );
             })}
+
+            <a
+              href="https://medinaz0.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMobile}
+              className="text-lg font-medium text-emerald-400 hover:text-emerald-300 transition-colors"
+            >
+              {t("nav.writeups")} ↗
+            </a>
 
             <div className="mt-6 flex items-center gap-6">
               <a

@@ -3,6 +3,7 @@ export type Dict = {
     overview: string;
     about: string;
     skills: string;
+    writeups: string;
   };
   home: {
     role: string;
