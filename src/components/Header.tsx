@@ -50,8 +50,6 @@ export default function Header() {
 
           <a
             href="https://medinaz0.github.io/"
-            target="_blank"
-            rel="noopener noreferrer"
             className="hidden md:inline-flex text-sm font-medium text-emerald-400 hover:text-emerald-300 transition-colors"
           >
             {t("nav.writeups")} ↗
@@ -74,15 +72,15 @@ export default function Header() {
               <ThemeToggle />
             </div>
 
-          {/* Hamburger */}
-          <button
-            onClick={() => setMobileOpen(!mobileOpen)}
-            className="md:hidden p-2 text-zinc-400 active:text-white transition-colors text-2xl leading-none"
-            style={{ touchAction: "manipulation" }}
-            aria-label="Toggle menu"
-          >
-            {mobileOpen ? "✕" : "☰"}
-          </button>
+            {/* Hamburger */}
+            <button
+              onClick={() => setMobileOpen(!mobileOpen)}
+              className="md:hidden p-2 text-zinc-400 active:text-white transition-colors text-2xl leading-none"
+              style={{ touchAction: "manipulation" }}
+              aria-label="Toggle menu"
+            >
+              {mobileOpen ? "✕" : "☰"}
+            </button>
           </div>
         </div>
       </header>
